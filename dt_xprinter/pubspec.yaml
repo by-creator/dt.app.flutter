@@ -1,0 +1,41 @@
+name: dt_xprinter
+description: Dakar Terminal — impression mobile via Xprinter XP-P324B (Bluetooth/WiFi)
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Afficher l'app Laravel dans une WebView
+  webview_flutter: ^4.7.0
+
+  # Connexion Bluetooth Classique (SPP) à la XP-P324B
+  flutter_bluetooth_serial: ^0.4.0
+
+  # Génération des commandes ESC/POS pour imprimantes thermiques
+  esc_pos_utils: ^1.1.0
+
+  # Traitement et redimensionnement d'images
+  image: ^4.1.7
+
+  # Connexion WiFi via socket TCP
+  network_info_plus: ^5.0.3
+
+  # Stockage local (mémoriser l'adresse de l'imprimante)
+  shared_preferences: ^2.2.3
+
+  # Gestion des permissions runtime (Bluetooth, réseau)
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
