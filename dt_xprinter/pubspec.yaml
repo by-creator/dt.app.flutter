@@ -21,7 +21,7 @@ dependencies:
   esc_pos_utils: ^1.1.0
 
   # Traitement et redimensionnement d'images
-  image: ^4.1.7
+  image: ^3.3.0
 
   # Connexion WiFi via socket TCP
   network_info_plus: ^5.0.3
